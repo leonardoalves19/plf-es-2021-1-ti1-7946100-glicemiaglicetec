@@ -1,19 +1,19 @@
-# Nome do projeto
-
-Escreva um ou dois  parágrafo resumindo o objetivo do seu projeto.
+# Glicetec
+ 
+ Desenvolver um meio de acesso rápido e fácil para que pessoas com problemas de saúde relacionados a glicose consigam fazer o controle dos índices glicemicos. Levar tambem novidades sobre o tratamento, receitas e exercicios fisicos para os ussuários de acordo com o tipo de problema que ele possui.
 
 ## Alunos integrantes da equipe
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-
+* Leonardo Fernando Magela Alves
+* Leonardo Gorle Almeida
+* Nicolás Melo Chabot
+* Raquel Inez de Almeida Calazans
+* Vítor Lion Guimarãe Rodrigues
 ## Professores responsáveis
 
-* Nome completo do professor 1
-* Nome completo do professor 2
-
+* Luciana De Nardin
+* Simone Alves Nogueira
+* Rommel Vieira Carneiro
 ## Instruções de utilização
 
 Assim que a primeira versão do sistema estiver disponível, deverá complementar com as instruções de utilização. Descreva como instalar eventuais dependências e como executar a aplicação.
