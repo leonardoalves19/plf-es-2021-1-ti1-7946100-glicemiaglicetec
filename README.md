@@ -8,7 +8,7 @@
 * Leonardo Gorle Almeida
 * Nicolás Melo Chabot
 * Raquel Inez de Almeida Calazans
-* Vítor Lion Guimarãe Rodrigues
+* Vítor Lion Guimarães Rodrigues
 ## Professores responsáveis
 
 * Luciana De Nardin
