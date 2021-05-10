@@ -1,6 +1,6 @@
 # Glicetec
  
- Desenvolver um meio de acesso rápido e fácil para que pessoas com problemas de saúde relacionados a glicose consigam fazer o controle dos índices glicemicos. Levar tambem novidades sobre o tratamento, receitas e exercicios fisicos para os ussuários de acordo com o tipo de problema que ele possui.
+ Desenvolver um meio de acesso rápido e fácil para que pessoas com problemas de saúde relacionados a glicose consigam fazer o controle dos índices glicemicos. Levar tambem novidades sobre o tratamento, receitas e exercicios fisicos para os usuários de acordo com o tipo de problema que ele possui.
 
 ## Alunos integrantes da equipe
 
