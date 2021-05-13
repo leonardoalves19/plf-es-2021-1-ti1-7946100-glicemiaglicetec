@@ -6,100 +6,94 @@
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
 > realizar a especificações do projeto
 
-## Personas
+2. Especificação do Projeto
+A definição exata do problema e os pontos mais relevantes a serem tratados neste projeto foi consolidada com a participação dos usuários em um trabalho de imersão feita pelos membros da equipe a partir da observação dos usuários em seu local natural e por meio de entrevistas. Os detalhes levantados nesse processo foram consolidados na forma de personas e histórias de usuários.
+2.1. Personas
+As personas levantadas durante o processo de entendimento do problema são apresentadas na Figuras que se seguem.
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em
-se desenvolver profissionalmente através de um mestrado fora do país,
-pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está
-buscando uma agência que o ajude a encontrar universidades na Europa
-que aceitem alunos estrangeiros.
-
-
-> Enumere e detalhe as personas da sua solução. Para
-> tanto, baseie-se tanto nos documentos disponibilizados na disciplina
-> e/ou nos seguintes links:
->
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-> Lembre-se que você deve ser enumerar e descrever precisamente e
-> personalizada todos os clientes ideais que sua solução almeja.
-
-## Histórias de Usuários
-
-Com base na análise das personas forma identificadas as seguintes histórias de usuários:
-
-|EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
-|--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
-
-> Apresente aqui as histórias de usuário que são relevantes para o
-> projeto de sua solução. As Histórias de Usuário consistem em uma
-> ferramenta poderosa para a compreensão e elicitação dos requisitos
-> funcionais e não funcionais da sua aplicação. Se possível, agrupe as
-> histórias de usuário por contexto, para facilitar consultas
-> recorrentes à essa parte do documento.
->
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-## Requisitos
-
-As tabelas que se seguem apresentam os requisitos funcionais e não funcionais que detalham o escopo do projeto.
-
-### Requisitos Funcionais
-
-|ID    | Descrição do Requisito  | Prioridade |
-|------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+ 	Maria da Graça Lima
+	Idade: 56
+Ocupação:Professora do ensino infantil.	Aplicativos:
+●	Instagram
+●	Facebook
+Motivações
+●	Ter um histórico de valores da glicemia para mostrar para o seu médico;
+●	Conseguir receitas e exercícios para viver melhor com o diabetes.	Frustrações
+●	Falta de um aplicativo simples para acom- panhar seus índices glicêmicos ao longo do dia e do tempo;
+●	Má divulgação de notícias sobre o diabetes.	Hobbies, História
+●	Cozinha e assiste novelas nas horas vagas
+●	Professora de ensino infantil, possui diabetes tipo 2 desde 95;
 
 
-### Requisitos não Funcionais
+ 	João Pedro Augusto
+	Idade: 20
+Ocupação:Estudante. 	Aplicativos:
+●	Facebook
+●	Linkedin
+●	Twitter
+●	Instagram
+Motivações
+●	Tendo histórico familiar de diabetes, pretende registrar a glicemia para mostrar para o médico e receber orientações.	Frustrações
+●	Falta de informações sobre como não desenvolver a diabetes.
+	Hobbies, História
+●	Tocar violão	
+●	Jogar vídeo-game.
+●	Ler.
 
-|ID     | Descrição do Requisito  |Prioridade |
-|-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+2.2. Histórias de usuários
+A partir da compreensão do dia a dia das personas identificadas para o projeto, foram registradas as seguintes histórias de usuários.
 
-> Com base nas Histórias de Usuário, enumere os requisitos da sua
-> solução. Classifique esses requisitos em dois grupos:
->
-> - [Requisitos Funcionais
->   (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
->   correspondem a uma funcionalidade que deve estar presente na
->   plataforma (ex: cadastro de usuário).
->
-> - [Requisitos Não Funcionais
->   (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
->   correspondem a uma característica técnica, seja de usabilidade,
->   desempenho, confiabilidade, segurança ou outro (ex: suporte a
->   dispositivos iOS e Android).
->
-> Lembre-se que cada requisito deve corresponder à uma e somente uma
-> característica alvo da sua solução. Além disso, certifique-se de que
-> todos os aspectos capturados nas Histórias de Usuário foram cobertos.
+Eu como …  [PERSONA]	… quero/desejo … 
+[O QUE]	… para ....
+[POR QUE]
+Maria da Graça	Conseguir registrar minha glicose de forma fácil	Para conseguir controlar a diabetes
+Maria da Graça	visualizar dietas para diabéticos	Manter meu nível de glicose controlado
+Maria da Graça	Compartilhar meu registro com meu médico e nutricionista	Receber o feedback médico e realizar a manutenção da dieta e dos medicamentos. 
+João Pedro	Acompanhar novidades médicas sobre a diabetes	conseguir evitar o desenvolvimento da doença
+João Pedro	Receber exercícios que ajudam a evitar a diabetes	me manter saudável apesar de ser pré-diabético
 
-## Restrições
+2.3. Requisitos do Projeto
+Para alcançar o objetivo  da criação de uma página web responsiva , é necessário definir e seguir os requisitos funcionais que apresentam as possibilidades de interação entre os usuários, como: compartilhamento de links,receitas, contato com seu médico, entre outros. Além de seguir também os requisitos não funcionais, por exemplo, em quais browsers será possível acessá-lo e como será sua interface. 
+2.3.1. Requisitos Funcionais
+A tabela a seguir apresenta os requisitos do projeto, identificando a prioridade em que os mesmos devem ser entregues.
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
-
-|ID| Restrição                                             |
-|--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+ID	Descrição	Prioridade
+RF-01	A página deverá apresentar na página principal o histórico dos índices glicêmicos dos usuários, junto com datas e horários registrados.	Alta
+RF-02	A página deve possibilitar uma navegação dinâmica e simplificada. 	Média
+RF-03	A página deve permitir ao usuário visualizar as postagens completas, com todos os detalhes da publicação.	Média
+RF-04	A página deve possibilitar a interação dos  usuários com seus médicos, nutricionistas e entre usuários comuns.	Alta
+RF-05	A página deve oferecer a possibilidade de filtrar os links que têm mais relevância para o usuário.	Média
+RF-06	A página deve manter o sigilo das informações dos usuários.	Alta
+RF-07	A página deve permitir o compartilhamento de dicas de rotinas e receitas entre os usuários.	Baixa
+RF-08	A página deve permitir salvar receitas preferidas.	Baixa
+RF-09	A página deve permitir verificar as postagens de outros usuários	Baixa
+RF-10	A página deve permitir que usuários possam comentar postagens e links	Baixa
+RF-11	A página deve disponibilizar links úteis de notícias da área, receitas, dietas e exercícios físicos.	Baixa
 
 
-> Enumere as restrições à sua solução. Lembre-se de que as restrições
-> geralmente limitam a solução candidata.
-> 
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
+
+
+
+
+
+2.3.2. Requisitos não funcionais
+A tabela a seguir apresenta os requisitos não funcionais que o projeto deverá atender.
+ID	Descrição	Prioridade
+RNF-01	O site deverá ser publicado nas principais lojas de aplicativo (play store, apple store)	Alta
+RNF-02	O site deverá ter uma interface limpa e de fácil acesso, já que a o público-alvo são usuários idosos	Alta
+RNF-03	O site deverá ser bem intuitivo indo direto às informações evitando propagandas e anúncios.	Média
+RNF-04	O site deverá conter informações salvas e login para que o usuário veja seus históricos e faça um acompanhamento.	Alta
+RNF-05	O site deverá ser bem leve, não ocupando muito espaço no celular do usuário.	Alta
+RNF-06	O site deverá notificar o usuário sobre novas descobertas do diabetes.  	Alta
+
+
+
+
+
+2.3.3. Restrições 
+As questões que limitam a execução desse projeto e que se configuram como obrigações claras para o desenvolvimento do projeto em questão são apresentadas na tabela a seguir.
+ID	Descrição
+RE-01	O site deve ser gratuito
+RE-02	O site deve estar em constantes atualizações
+RE-03	O site deve receber um feedback mensal do usuário
+RE-04	O  site deve funcionar bem e conforme evitando bugs
