@@ -5,7 +5,8 @@ $(function() {
     tbUsuarios = JSON.parse(tbUsuarios);
     if (tbUsuarios = null)
         tbUsuarios = [];
-
+    else
+        validateuser
 })
 
 function Add() {
@@ -30,3 +31,15 @@ $("#cadastro").on("submite", function() {
     else
         return alert("Cadastro já efetuado, faça login.");
 })
+
+function validate() {
+    var user = document.getElementById(usuario);
+    if (val() == 0)
+        alert(Usuario_inexistente);
+    else
+        var user = document.getElementById(senha);
+    if (val() == 0)
+        alert(Senha_incorreta)
+    else
+        return "#btnEntrar";
+}
