@@ -9,7 +9,7 @@ $(function() {
 })
 
 function Add() {
-    var usuario = JSON.stringify({
+    var user = JSON.stringify({
         email: $("#email").val(),
         usuario: $("#name").val(),
         senha: $("#password").val(),
@@ -17,7 +17,7 @@ function Add() {
         frequencia: $("#Freq").val(),
         idade: $("#Id").val()
     });
-    tbUsuarios.push(usuario);
+    tbUsuarios.push(user);
     localStorage.setItem("tbUsuarios", JSON.stringify(tbUsuarios));
     alert("Registro adicionado.");
     operação = "A";
@@ -30,16 +30,3 @@ $("#cadastro").on("submite", function() {
     else
         return alert("Cadastro já efetuado, faça login.");
 })
-
-function Adicionar() {
-    var cliente = JSON.stringify({
-        Codigo: $("#txtCodigo").val(),
-        Nome: $("#txtNome").val(),
-        Telefone: $("#txtTelefone").val(),
-        Email: $("#txtEmail").val()
-    });
-    tbClientes.push(cliente);
-    localStorage.setItem("tbClientes", JSON.stringify(tbClientes));
-    alert("Registro adicionado.");
-    return true;
-}
