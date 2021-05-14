@@ -5,12 +5,12 @@
 
 ## Divisão de Papéis
 
-    •	Scrum Master: Raquel Inez
-    •	Product Owner: Nicolás Melo
-    •	Equipe de Desenvolvimento:
-        o	Leonardo Fernando
-        o	Leonardo Gorle
-        o	Vítor Lion
+    •Scrum Master: Raquel Inez
+    •Product Owner: Nicolás Melo
+    •Equipe de Desenvolvimento:
+       oLeonardo Fernando
+       oLeonardo Gorle
+       oVítor Lion
 
 
 ## Processo
