@@ -6,7 +6,7 @@ $(function() {
     if (tbUsuarios = null)
         tbUsuarios = [];
     else
-        validateuser
+        validate();
 })
 
 function Add() {
